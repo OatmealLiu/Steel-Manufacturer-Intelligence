@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.3",
+    "heartbeatAt": "2021-07-30T12:27:30.518682",
+    "startedAt": "2021-07-30T12:27:27.901903",
+    "docker": null,
+    "gpu": "GeForce RTX 2070 Super with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--data",
+        "data/voc_plate_hot.yaml",
+        "--cfg",
+        "models/yolov5s_plate_hot.yaml",
+        "--weights",
+        "weights/yolov5s.pt",
+        "--batch-size",
+        "32",
+        "--epochs",
+        "120",
+        "--workers",
+        "4",
+        "--name",
+        "hot-yolov5s"
+    ],
+    "state": "running",
+    "program": "C:/Users/mingx/PycharmProjects/SMS_YOLOv5_Hot/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5.git",
+        "commit": "8d3c3ef45ce1d530aa3751f6187f18cfd9c40791"
+    },
+    "email": "mingxuan_liu_grey@163.com",
+    "root": "C:/Users/mingx/PycharmProjects/SMS_YOLOv5_Hot",
+    "host": "LAPTOP-SF058DOL",
+    "username": "mingx",
+    "executable": "C:\\Users\\mingx\\anaconda3\\python.exe"
+}

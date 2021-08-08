@@ -1,0 +1,1 @@
+{"box_data": [{"position": {"minX": 395.0, "minY": 321.75, "maxX": 504.5, "maxY": 388.75}, "class_id": 0, "box_caption": "plate_hot 0.004", "scores": {"class_score": 0.004322052001953125}, "domain": "pixel"}], "class_labels": {"0": "plate_hot"}}
